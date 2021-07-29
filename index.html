@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="img/logo.jpg">
+  <title>Snowpiercer</title>
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <audio src="/sound/audio.mp3" autoplay loop id="myaudio"></audio>
+  <script>
+    var audio = document.getElementById("myaudio");
+    audio.volume = 0.5;
+  </script>
+
+  <div class="menu-btn">
+    <i class="fas fa-bars fa-2x"></i>
+  </div>
+
+  <div class="container">
+    <!-- Navigation -->
+    <nav class="nav-main">
+      <!-- Brand -->
+      <img src="img/logo.jpg" alt="Logo" class="nav-brand" />
+      <!-- Left Nav -->
+      <ul class="nav-menu">
+        <li>
+          <a href="#inicio">Inicio</a>
+        </li>
+        <li>
+          <a href="#serie">Serie</a>
+        </li>
+        <li>
+          <a href="#libross">Libros</a>
+        </li>
+        <li>
+          <a href="#pelicula">Pelicula</a>
+        </li>
+        <li>
+          <a href="#noticias">Noticias</a>
+        </li>
+        <li>
+          <a href="#contacto">Contacto</a>
+        </li>
+        <li>
+          <a href="#piepagina">Mas</a>
+        </li>
+      </ul>
+    </nav>
+    <hr />
+
+    <!-- SHOWCASE -->
+    <header class="showcase" id="inicio">
+      <h2>SNOWPIERCER</h2>
+      <p>
+        Este es el Snowpiercer, hacemos un circulo alrededor de la tierra. No
+        podemos detenernos. Estas son nuestras revoluciones de 1001 vagones de
+        largo.
+      </p>
+      <a target="_blank" href="https://m.facebook.com/?locale=es_ES" class="btn">
+        Registrar <i class="fas fa-chevron-right"></i>
+      </a>
+    </header>
+
+    <!-- Card Banner 1 NETFLIX-->
+    <section class="cards-banner-net" id="serie">
+      <div class="content">
+        <h2>VER SERIE EN NETFLIX</h2>
+        <!-- lorem 20 -->
+        <p>
+          Snowpiercer se ambienta siete años después de que el mundo se
+          convierta en un páramo helado, y sigue a los restos de la humanidad
+          que habitan en un tren en constante movimiento que rodea el mundo
+          una vez al año y consta de 1001 vagones.​ Construido por el
+          multimillonario Wilford, el tren está rígidamente separado por
+          clases, con pasajeros atrapados en una lucha revolucionaria contra
+          la jerarquía social estrictamente impuesta y la asignación
+          desequilibrada de recursos limitados. El programa cuestiona la
+          guerra de clases, la injusticia social y las políticas de
+          supervivencia.
+        </p>
+        <a target="_blank" href="https://www.netflix.com/mx/title/80177458"><img class="btn_netflix"
+            src="img/iconoNetflix.png" alt="BotonNetflix" /></a>
+      </div>
+    </section>
+
+    <!-- NEWS CARDS -->
+    <div class="news-cards-libro" id="libross">
+      <div>
+        <img src="img/libro1.jpg" alt="" />
+        <h3>Vol. 1: The Escape</h3>
+        <p>
+          Libro de Jacques Lob
+        </p>
+        <h4>$1200.00</h4>
+        <a target="_blank" href="https://www.amazon.com.mx/Snowpiercer/dp/B00K1V4ZUE" class="leer_mas">Leer más <i class="fas fa-angle-double-right"></i></a><br>
+        <a target="_blank" href="https://www.amazon.com.mx/Snowpiercer/dp/B00K1V4ZUE" class="comprar">Comprar</a>
+      </div>
+      <div>
+        <img src="img/libro2.jpg" alt="" />
+        <h3>Volume 2 - the Explorers</h3>
+        <p>
+          Libro de Benjamin Legrand
+        </p>
+        <h4>$950.00</h4>
+        <a target="_blank" href="https://www.amazon.com.mx/Snowpiercer/dp/B00K1V4ZUE" class="leer_mas">Leer más <i class="fas fa-angle-double-right"></i></a><br>
+        <a target="_blank" href="https://www.amazon.com.mx/Snowpiercer/dp/B00K1V4ZUE" class="comprar">Comprar</a>
+      </div>
+      <div>
+        <img src="img/libro3.jpg" alt="" />
+        <h3>Vol. 3: Terminus</h3>
+        <p>
+          Libro de Olivier Bocquet
+        </p>
+        <h4>$1600.00</h4>
+        <a target="_blank" href="https://www.amazon.com.mx/Snowpiercer/dp/B00K1V4ZUE" class="leer_mas">Leer más <i class="fas fa-angle-double-right"></i></a><br>
+        <a target="_blank" href="https://www.amazon.com.mx/Snowpiercer/dp/B00K1V4ZUE" class="comprar">Comprar</a>
+      </div>
+      <div>
+        <img src="img/libro4.jpg" alt="" />
+        <h3>Prequel Vol. 1: Extinction</h3>
+        <p>
+          Libro de Jean-Marc Rochette
+        </p>
+        <h4>$690.00</h4>
+        <a target="_blank" href="https://www.amazon.com.mx/Snowpiercer/dp/B00K1V4ZUE" class="leer_mas">Leer más <i class="fas fa-angle-double-right"></i></a><br>
+        <a target="_blank" href="https://www.amazon.com.mx/Snowpiercer/dp/B00K1V4ZUE" class="comprar">Comprar</a>
+      </div>
+      <div>
+        <img src="img/libro5.webp" alt="" />
+        <h3>Prequel Vol. 2: Apocalypse</h3>
+        <p>
+          Libro de Alex Nolent
+        </p>
+        <h4>$599.00</h4>
+        <a target="_blank" href="https://www.amazon.com.mx/Snowpiercer/dp/B00K1V4ZUE" class="leer_mas">Leer más <i class="fas fa-angle-double-right"></i></a><br>
+        <a target="_blank" href="https://www.amazon.com.mx/Snowpiercer/dp/B00K1V4ZUE" class="comprar">Comprar</a>
+      </div>
+      <div>
+        <img src="img/libro6.jpg" alt="" />
+        <h3>The Explorers</h3>
+        <p>
+          Libro de Jacques Lob
+        </p>
+        <h4>$1200.00</h4>
+        <a target="_blank" href="https://www.amazon.com.mx/Snowpiercer/dp/B00K1V4ZUE" class="leer_mas">Leer más <i class="fas fa-angle-double-right"></i></a><br>
+        <a target="_blank" href="https://www.amazon.com.mx/Snowpiercer/dp/B00K1V4ZUE" class="comprar">Comprar</a>
+      </div>
+    </div>
+
+    <!-- Card Banner 1-->
+    <section class="cards-banner-one" id="pelicula">
+      <div class="content">
+        <h2>SNOWPIERCER - LA PELICULA</h2>
+        <iframe class="videoYoutube" src="https://www.youtube.com/embed/YtfhP4XB5g4?controls=0"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- NEWS CARDS -->
+    <div class="news-cards" id="noticias">
+      <div>
+        <img src="img/noticia1.jpeg" alt="" />
+        <h3>Snowpiercer Temporada 3: Cuando llegaría a Netflix la nueva termporada de la serie.</h3>
+        <p>
+          Para aquellos que no están al dia con el programa o que aun no lo conocen, Snowpiercer es la serie de TNT que
+          esta inspirada en la pelicula de...
+        </p>
+        <a target="_blank" href="https://vader.news/series/Snowpiercer-Temporada-3-Cuando-llegaria-a-Netflix-la-nueva-temporada-de-la-serie-20210710-0021.html">Leer más <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/noticia3.jpg" alt="" />
+        <h3>Indignacion de los fans de Snowpiercer con el estreno de la 2da Temporada: "Es un desastre pero no puedo parar"</h3>
+        <p>
+          Los fans de Snowpiercer han detectado varios agujeros de guion en el primer episodio...
+        </p>
+        <a target="_blank" href="https://www.espinof.com/criticas/snowpiercer-rompenieves-mejora-temporada-2-serie-netflix-consigue-distanciarse-pelicula-al-acercarse-a-actualidad">Leer más <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/noticia2.jpg" alt="" />
+        <h3>"Snowpiercer": Tan irregular como adictiva</h3>
+        <p>
+          Segunda termporada. La segunda temporada de la serie de ciencia ficcion distópica basada en el comic,...
+        </p>
+        <a target="_blank" href="https://www.culturaocio.com/tv/noticia-indignacion-fans-snowpiercer-estreno-temporada-desastre-no-puedo-parar-20210126135732.html">Leer más <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/noticia4.jpg" alt="" />
+        <h3>Las diferencias entre la serie disponible en Netflix y la pelicula.</h3>
+        <p>
+          Existe una gran diferencia entre la serie de Netflix y la pelicula "Rompenieves", aseguran fans, que...
+        </p>
+        <a target="_blank" href="https://www.espinof.com/series-de-ficcion/snowpiercer-rompenieves-diferencias-serie-que-emite-netflix-comic-original-pelicula-bong-joon-ho">Leer más <i class="fas fa-angle-double-right"></i></a>
+      </div>
+    </div>
+
+    <!-- third card -->
+    <section class="cards-banner-two" id="contacto">
+      <div class="content">
+        
+      </div>
+    </section>
+
+    
+  </div>  <!-- Fin del contenedor principal -->
+
+  <!-- Inicio del Pie de Pagina-->
+  <footer id="footer">
+    <div class="wrap" id="piepagina">
+
+        <div id="menu_footer">
+            <h5>Social</h5>
+            <ul>
+                <li>
+                    <a target="_blank" href="https://www.facebook.com/SnowpiercerTV/">Facebook <img class="img-media" src="img/facebook.svg" alt=""></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.instagram.com/snowpiercertv/?hl=es">Instagram <img class="img-media" src="img/instagram.svg" alt=""></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://twitter.com/snowpiercertv?lang=es">Twitter <img class="img-media" src="img/twitter.svg" alt=""></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.youtube.com/watch?v=lGcJL6TG5cA">YouTube <img class="img-media" src="img/youtube.svg" alt=""></a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="location">
+            <h5>¿Donde Estamos?</h5>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7532.878267424741!2d-98.90281862725537!3d19.263260426108445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce1ec9684816bb%3A0x9a61949256a192d9!2sChalco%20Centro%2C%20Chalco%20de%20D%C3%ADaz%20Covarrubias%2C%20M%C3%A9x.!5e0!3m2!1ses!2smx!4v1600148056353!5m2!1ses!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+        <div id="info">
+            <h5>Desarrollado Con.</h5>
+            <p>
+                <img id="imgHTML" src="img/html5-badge-h-css3-graphics-multimedia-performance-semantics.png" alt="HTML">
+            </p>
+
+            <h5>Optimizado Para.</h5>
+            <p id="browsers">
+                <a href="#">
+                    <img src="img/firefox-icon.png">
+                </a>
+                <a href="#">
+                    <img src="img/chrome.png">
+                </a>
+                <a href="#">
+                    <img src="img/ios.png">
+                </a>
+                <a href="#">
+                    <img src="img/android.png">
+                </a>
+                <a href="#">
+                    <img src="img/Opera_256x256.png">
+                </a>
+                <a href="#">
+                    <img src="img/safari.png">
+                </a>
+            </p>
+
+            <h5>Autor</h5>
+            <p id="fautor">&copy; Ing. Raul Zepeda Sierra.</p>
+        </div>
+    </div>
+</footer>
+<!-- Fin del Pie de Pagina-->
+
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
